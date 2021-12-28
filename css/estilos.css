@@ -1,0 +1,86 @@
+@media screen and (min-width:768px){
+
+*{
+    margin:0;
+    padding:0; 
+    box-sizing: border-box;
+}
+
+html{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.header{
+    background-color:rgb(32, 32, 32);
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 14vh;
+    width:100%
+
+}
+
+.header__logo{
+    width:100px;
+    height:80px;
+    display:flex;
+    align-self: flex-start;
+}
+
+.header__nav{
+    display:flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.header__item{
+    display:inline-block;
+}
+
+.main__section{
+    background-color:gray;
+    background-image: url("../assets/the-creative-exchange-kWVImL5QxJI-unsplash333.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:500px;
+    width:100%px;
+    color:indigo;
+    padding:60px;
+    border:60px;
+    
+}
+
+
+.section__list{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: auto;
+}
+
+.list{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+
+}
+
+.list__item{
+    display:grid;
+    justify-items:center;
+}
+
+.imagen{
+    height:280px;
+    width:200px;
+}
+
+.footer{
+    background-color: rgb(32, 32, 32);
+    color:ghostwhite
+}
+
+}
