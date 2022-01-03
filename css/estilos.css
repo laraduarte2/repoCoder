@@ -235,7 +235,23 @@ a{
     height:100%;
 }
 
+@keyframes effect{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
+@keyframes effect__button{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 @media screen and (max-width:424px) {
     .header{
