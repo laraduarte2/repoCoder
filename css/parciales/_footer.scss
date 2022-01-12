@@ -1,0 +1,44 @@
+.footer{
+    background-color: rgb(32, 32, 32);
+    color:ghostwhite;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:5%;
+    grid-area:footer;
+  
+  
+      &__h4{
+        font-weight:normal;
+      }
+  
+      &__nav{
+        display:flex;
+        flex-direction:column;
+      }
+  
+      &__redes{
+        display:flex;
+        flex-direction:column;
+      }
+  
+      &__map{
+        height:100%;
+      }
+  
+  }
+
+  @media screen and (max-width:424px) {
+   
+    .footer{
+        flex-direction:column;
+    }
+  }
+  
+  @media screen and (min-width:425px) and (max-width:768px) {
+    
+  
+    .footer{
+        flex-direction:column;
+    }
+  }
