@@ -103,7 +103,7 @@ a{
     grid-area:body;
 }
 
-.h1{
+.body__h1{
     display:flex;
     flex-direction:row;
     justify-content: center;
@@ -222,7 +222,7 @@ a{
     grid-area:footer;
 }
 
-.h4{
+.footer__h4{
     font-weight:normal;
 }
 

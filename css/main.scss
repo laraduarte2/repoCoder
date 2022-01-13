@@ -1,6 +1,34 @@
-@import url("./parciales/reset.scss");
-@import url("./parciales/header.scss");
-@import url("./parciales/hero.scss");
-@import url("./parciales/body.scss");
-@import url("./parciales/footer.scss");
-@import url("./parciales/variables.scss");
+@import "./parciales/reset.scss";
+@import "./parciales/header.scss";
+@import "./parciales/_hero.scss";
+@import "./parciales/_body.scss";
+@import "./parciales/_footer.scss";
+@import "./parciales/_variables.scss";
+
+
+.header{
+    background-color:rgb(32, 32, 32);
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content:space-between;
+    height:10vh;
+    grid-area:header;
+
+  
+      &__item{
+        display:inline-block;
+        padding:1rem;
+      }
+  
+      .picture{
+        height:100%;
+      }
+  
+          .header__logo{
+            height:100%;
+            width:100%;
+            object-fit: scale-down;
+          }
+  }

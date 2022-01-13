@@ -1,6 +1,6 @@
-@import url("./parciales/reset.scss");
-@import url("./parciales/header.scss");
-@import url("./parciales/hero.scss");
-@import url("./parciales/body.scss");
-@import url("./parciales/footer.scss");
-@import url("./parciales/variables.scss");/*# sourceMappingURL=main.css.map */
+@import "./parciales/reset.scss";
+@import "./parciales/header.scss";
+@import "./parciales/_hero.scss";
+@import "./parciales/_body.scss";
+@import "./parciales/_footer.scss";
+@import "./parciales/_variables.scss";/*# sourceMappingURL=main.css.map */
