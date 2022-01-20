@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -76,7 +74,6 @@ a {
     padding: 0;
   }
 }
-
 .main__section {
   background-color: gray;
   background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0.1), rgba(0, 0, 0, 0.86)), url("../assets/bgimage.jpg");
@@ -84,7 +81,7 @@ a {
   background-repeat: no-repeat;
   height: 90vh;
   width: 100%;
-  color: #cccccc;
+  color: #d8d8d8;
   padding: 4rem;
   border: 60px;
   grid-area: hero__section;
@@ -162,7 +159,7 @@ a {
   .main__section {
     margin-top: 0;
     padding: 3%;
-    color: indigo;
+    color: #470279;
   }
 
   .main__h1 {
@@ -174,7 +171,7 @@ a {
   .main__section {
     padding: 0;
     margin-top: 0;
-    color: indigo;
+    color: #470279;
   }
 
   .main__h1 {
@@ -209,8 +206,8 @@ a {
   font-weight: bold;
   color: ghostwhite;
 }
-.body .gallery__item1 {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
+.body .gallery__item1, .body .gallery__item6, .body .gallery__item5, .body .gallery__item4, .body .gallery__item3, .body .gallery__item2 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/imgRemera.jpg");
   height: 240px;
   width: 200px;
   grid-area: a;
@@ -222,64 +219,19 @@ a {
   padding-top: 100%;
 }
 .body .gallery__item2 {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-  height: 240px;
-  width: 200px;
   grid-area: b;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1rem;
-  background-size: cover;
-  padding-top: 100%;
 }
 .body .gallery__item3 {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-  height: 240px;
-  width: 200px;
   grid-area: c;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1rem;
-  background-size: cover;
-  padding-top: 100%;
 }
 .body .gallery__item4 {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-  height: 240px;
-  width: 200px;
   grid-area: d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1rem;
-  background-size: cover;
-  padding-top: 100%;
 }
 .body .gallery__item5 {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-  height: 240px;
-  width: 200px;
   grid-area: e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1rem;
-  background-size: cover;
-  padding-top: 100%;
 }
 .body .gallery__item6 {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-  height: 240px;
-  width: 200px;
   grid-area: f;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1rem;
-  background-size: cover;
-  padding-top: 100%;
 }
 
 @media screen and (max-width: 424px) {

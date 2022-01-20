@@ -1,2 +1,6 @@
-
+@mixin movil {
+    @media screen and (max-width: 320px){
+        @content;
+    }
+}
 

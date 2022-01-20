@@ -1,3 +1,13 @@
+$colors: (
+    dark: rgb(24, 24, 24),
+    title-lg: rgb(216, 216, 216),
+    title: rgb(71, 2, 121),
+);
 
-//Color 
-$purple:indigo;
+$color--title: map-get($colors, title);
+
+$title--lg: map-get($colors, title-lg);
+
+$dark: map-get($colors, dark);
+
+$purple: $color--title;
