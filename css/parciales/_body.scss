@@ -1,3 +1,6 @@
+
+
+
 .body{
     grid-area:body;
   
@@ -34,7 +37,7 @@
   
   
           &__item1{
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/imgRemera.jpg");
             height:240px;
             width:200px;
             grid-area:a;
@@ -46,70 +49,38 @@
             padding-top:100%;
           }
   
-  
+          
+
+
           &__item2{
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-            height:240px;
-            width:200px;
+
+            @extend .gallery__item1;
+
             grid-area:b;
-            display:flex;
-            flex-direction:column;
-            align-items:center;
-            border-radius:1rem;
-            background-size:cover;
-            padding-top:100%;
+            
+
           }
   
           &__item3{
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-            height:240px;
-            width:200px;
+            @extend .gallery__item1;
             grid-area:c;
-            display:flex;
-            flex-direction:column;
-            align-items:center;
-            border-radius:1rem;
-            background-size:cover;
-            padding-top:100%;
           }
   
           &__item4{
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-            height:240px;
-            width:200px;
+            @extend .gallery__item1;
             grid-area:d;
-            display:flex;
-            flex-direction:column;
-            align-items:center;
-            border-radius:1rem;
-            background-size:cover;
-            padding-top:100%;
+            
           }
   
           &__item5{
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-            height:240px;
-            width:200px;
+            @extend .gallery__item1;
             grid-area:e;
-            display:flex;
-            flex-direction:column;
-            align-items:center;
-            border-radius:1rem;
-            background-size:cover;
-            padding-top:100%;
           }
   
           &__item6{
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.62)), url("../assets/img.png");
-            height:240px;
-            width:200px;
+            @extend .gallery__item1;
             grid-area:f;
-            display:flex;
-            flex-direction:column;
-            align-items:center;
-            border-radius:1rem;
-            background-size:cover;
-            padding-top:100%;
+            
           }
         }
   }
