@@ -12,6 +12,13 @@
         justify-content: center;
         padding:6%;
       }
+
+      &__h1{
+        display:flex;
+        justify-content:center;
+        background-color:pink;
+        margin: 6rem;
+      }
   
       //Galería de Productos
 
@@ -47,10 +54,11 @@
             border-radius:1rem;
             background-size:cover;
             padding-top:100%;
-          }
-  
-          
 
+            &:hover{
+              transform: skew(-10deg);
+            }
+          }
 
           &__item2{
 
@@ -84,6 +92,9 @@
           }
         }
   }
+
+
+
 
   @media screen and (max-width:424px) {
 

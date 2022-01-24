@@ -7,66 +7,99 @@
     <meta name="description" content="Tienda de indumentaria unisex" >
     <meta name="keywords" content="indumentaria, ropa, unisex, remeras">
     <title>Locales</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/master.css">
 </head>
 <body>
+    <!--Header-->
     <header class="header">
         <picture class="picture">
-                <img src="./assets/logo-placeholder.png" width="180px" height="140px" class="header__logo">
-            </picture>
-        <nav class="header__nav">
+                <img src="../assets/logo-placeholder.png" width="180px" height="140px" class="header__logo">
+        </picture>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="locales.html">Locales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./paginas/contacto.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contacto
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>-->
             
-            <ul class="header__list">
-                <li class="header__item"> <a href="../index.html">Home</a> </li>
-                <li class="header__item"> <a href="productos.html">Productos</a> </li>
-                <li class="header__item"> <a href="nosotros.html">Nosotros</a> </li>
-                <li class="header__item"> <a href="locales.html">Locales</a> </li>
-                <li class="header__item"> <a href="contacto.html">Contacto </a> </li>
-        </nav>
-    </header>
-
-    <main class="main">
-        
-        <section>
-            <nav class="product__nav">
-                <ul class="product__list">
-                    <li class="product__item"> <a href="ProdRemeras.html">  
-                        <img src="assets/unsplashRemera.jpg" width=20% height="20%" class="imagen">
-                         <p>Local 1</p>
-                        </a>  
-                    </li>
-                    <li class="product__item"> <a href="ProdHoodies.html">  
-                        <img src="assets/unsplashRemera.jpg" width=20% height="20%" class="imagen">
-                         <p>Local 2</p> 
-                        </a>  
-                    </li>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer__nav">
-            <h4>Navegación</h4>
-            <nav>
-                <ul>
-                    <li> <a href="../index.html">Home </a> </li>
-                    <li> <a href="productos.html">Productos</a> </li>
-                    <li> <a href="nosotros.html">Nosotros</a> </li>
-                    <li> <a href="locales.html">Locales </a> </li>
-                    <li> <a href="contacto.html">Contacto </a> </li>
-            </nav>
+          </ul>
         </div>
-        <div class="footer__redes">
-            <h4>Redes</h4>
+      </nav>
+      </header>
+
+        <main class="locales">
+            <h1 class="locales__title"> Locales </h1>
+            <div class="locales__div">
+                <div class="locales__picture">
+                    <img src="../assets/local1.jpg" class="locales__picture--img">
+                </div>
+
+                <div class="locales__text">
+                    <p class="locales__p"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.  </p>
+                </div>
+            </div>
+            <div class="locales__div">
+                <div class="locales__picture">
+                    <img src="../assets/local2.jpg" class="locales__picture--img">
+                </div>
+                <div class="locales__text">
+                    <p class="locales__text--p"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+        </main>
+<!--Footer-->
+<footer class="footer">
+    <div class="footer__nav">
+        <h4 class="footer__h4">Navegación</h4>
+        <div>
             <ul>
-                <li> <a href="instagram.com">Instagram</a> </li>
-                <li> <a href="facebook.com">Facebook</a></li>
-                <li> <a href="web.whatsapp.com">WhatsApp</a></li>
-                <li> <a href="gmail.com">Email</a> </li>
-            </ul>
-        </div>
-        <div class="footer__map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.3970753242!2d-58.57338494756602!3d-34.61546111637758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires!5e0!3m2!1sen!2sar!4v1638379511814!5m2!1sen!2sar">
-        </div>
-    </footer>
+                <li> <a href="../index.html">Home </a> </li>
+                <li> <a href="nosotros.html">Productos</a> </li>
+                <li> <a href="nosotros.html">Nosotros</a> </li>
+                <li> <a href="locales.html">Locales </a> </li>
+                <li> <a href="contacto.html">Contacto </a> </li>
+            </div>
+    </div>
+    <div class="footer__redes">
+        <h4 class="footer__h4">Redes</h4>
+        <ul>
+            <li> <a href="instagram.com">Instagram</a> </li>
+            <li> <a href="facebook.com">Facebook</a></li>
+            <li> <a href="web.whatsapp.com">WhatsApp</a></li>
+            <li> <a href="gmail.com">Email</a> </li>
+        </ul>
+    </div>
+    <div class="footer__map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.3970753242!2d-58.57338494756602!3d-34.61546111637758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires!5e0!3m2!1sen!2sar!4v1638379511814!5m2!1sen!2sar">
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
