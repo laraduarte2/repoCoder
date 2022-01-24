@@ -129,6 +129,22 @@ a {
   background-image: linear-gradient(white, #d4d4d4);
 }
 
+.hero__subtitle{
+  color:rgb(236, 236, 236);
+  font-size:1rem;
+  margin-right: 8rem;
+  padding-right: 8rem;
+  
+  -webkit-animation-name: effect;
+          animation-name: effect;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+
+}
 @-webkit-keyframes effect {
   0% {
     transform: translateX(-100%);
@@ -172,6 +188,11 @@ a {
   .hero__h1 {
     margin-top: 10rem;
     padding: 0;
+  }
+
+  .hero__subtitle{
+    color:rgb(236, 236, 236);
+    font-size:1rem;
   }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
