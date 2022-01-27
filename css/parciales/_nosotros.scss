@@ -1,0 +1,47 @@
+
+.main__div{
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  .main__text{
+    height:50rem;
+    width:40rem;
+    overflow:hidden;
+    margin:6rem;
+    justify-content: center;
+    align-content: center;
+    justify-items:center;
+    align-items: center;
+    padding:4rem;
+  }
+  
+  .main__text--p{
+    justify-self:center;
+    align-self: center;
+  }
+  
+  .main__picture{
+    background-color:tomato;
+    height:50rem;
+    width:40rem;
+    object-fit: cover;
+    overflow:hidden;
+    margin:6rem;
+  }
+  
+  .main__picture--img{
+    background-color:tomato;
+    height:50rem;
+    width:40rem;
+    object-fit: cover;
+    overflow:hidden;
+    justify-self:center;
+    align-self: center;
+  }
+  
+  .main__title{
+    display:flex;
+    justify-content:center;
+    margin-top: 4rem;
+  }
