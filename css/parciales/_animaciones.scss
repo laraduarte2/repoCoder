@@ -1,0 +1,60 @@
+
+/*efecto hero*/
+@keyframes heroSection__effect{
+    0%{
+        opacity:0%;
+    }
+    100%{
+        opacity:100%;
+    }
+  }
+  
+  
+  /*efecto entrada texto*/
+  @keyframes effect{
+    0% {
+        transform: translateX(-100%);
+        opacity:0%;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:100%;
+    }
+  }
+
+  /*efecto aparicion boton*/
+
+@keyframes effect__button{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+
+  /*efecto entrada galería index*/
+
+@keyframes galleryEffect{
+    0% {
+        transform: translateY(50%);
+        opacity:0%;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:100%;
+    }
+  }
+  
+/*efecto entrada locales*/
+  @keyframes effect2{
+    0% {
+        transform: translateX(100%);
+        opacity:0%;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:100%;
+    }
+  }

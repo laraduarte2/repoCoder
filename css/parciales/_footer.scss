@@ -1,44 +1,77 @@
-.footer{
-    background-color: rgb(32, 32, 32);
-    color:ghostwhite;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    padding:5%;
-    grid-area:footer;
-  
-  
-      &__h4{
-        font-weight:normal;
-      }
-  
-      &__nav{
-        display:flex;
-        flex-direction:column;
-      }
-  
-      &__redes{
-        display:flex;
-        flex-direction:column;
-      }
-  
-      &__map{
-        height:100%;
-      }
-  
-  }
+/*footer*/
 
-  @media screen and (max-width:424px) {
-   
-    .footer{
-        flex-direction:column;
-    }
+.footer{
+  height: auto;
+  padding:1rem;
+
+  &__title{
+  font-weight:bold;
+  color:ghostwhite;
+  font-size:1.2rem;
+  justify-self:center;
   }
-  
-  @media screen and (min-width:425px) and (max-width:768px) {
-    
-  
-    .footer{
-        flex-direction:column;
-    }
+  &__nav{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
+  justify-items:center;
   }
+  &__redes{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-content:center;
+      align-items: center;
+      justify-items:center;
+  }
+  &__list{
+      text-decoration: none;
+      list-style: none;
+      align-self:center;
+      justify-self:center;
+      color:ghostwhite;
+      font-weight:normal;
+
+      &--item{
+      text-decoration: none;
+      color:ghostwhite;
+      font-weight:normal;
+          &:hover{
+          text-decoration:underline;
+          color:rgb(164, 164, 164);
+          }
+      }
+      /*icons social media*/
+      &--icon{
+          text-decoration: none;
+          color:ghostwhite;
+          font-weight:normal;
+              &:hover{
+                  text-decoration:underline;
+                  color:rgb(164, 164, 164);
+              }
+      }
+  }
+  &__map{
+  padding:1rem;
+  display:flex;
+  align-self:center;
+  justify-self:center;
+  height:100%;
+  overflow:hidden;
+  justify-content:center;
+  justify-items:center;
+
+      &--frame{
+      justify-self:center;
+      }
+  }
+  &__copyright{
+  display:flex;
+  justify-content:center;
+  background-color:rgb(14, 14, 14);
+  height:5vh;
+}
+}

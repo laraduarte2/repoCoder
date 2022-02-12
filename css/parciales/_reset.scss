@@ -1,24 +1,39 @@
 *{
-    margin:0;
-    padding:0; 
-    box-sizing: border-box;
-    font-family: 'Outfit', sans-serif !important;
-  }
-  
-  body{
-    display:grid;
-    grid-template-columns:100%;
-    grid-template-rows: 10vh,90vh,80vh, 20vh;
-    grid-template-areas:"header"
-                        "hero__section"
-                        "body"
-                        "footer";
-  }
-  
-  ul{
-    list-style: none;
-  }
-  
-  a{
-    text-decoration:none;
-  }
+  margin:0;
+  padding:0; 
+  box-sizing: border-box;
+  font-family:"Outfit", sans-serif !important;
+}
+
+html{
+  font-family:"Outfit", sans-serif !important;
+}
+
+ul{
+  list-style:none;
+  text-decoration:none;
+}
+
+ul li{
+  list-style:none;
+  text-decoration: none;
+}
+
+body{
+  background: rgb(51,51,51);
+background: radial-gradient(circle, rgba(51,51,51,1) 0%, rgba(14,14,14,1) 88%);
+background-position: fixed;
+}
+
+.container-fluid{
+  height:100%;
+}
+
+.header{
+  height:10vh;
+}
+
+.footer{
+  height: auto;
+  padding:1rem;
+}

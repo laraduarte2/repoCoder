@@ -1,0 +1,114 @@
+@import "variables";
+@import "animaciones";
+
+.button{
+    width:180px;
+    background-image:linear-gradient(rgb(241, 241, 241),rgb(145, 145, 145));
+    border-radius: 1rem;
+    color:black;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top:0.5rem;
+    margin-left:1rem;
+    margin-bottom:1rem;
+    margin:1rem, 0, 1rem, 1rem;
+    font-weight:bolder;
+    transition: background-image 2s;
+    transition: transform 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+    animation-name:effect__button;
+    animation-duration:1.5s;
+    animation-timing-function:ease-in;
+
+    &:hover{
+        background-image:linear-gradient(rgb(255, 255, 255),rgb(212, 212, 212));
+        color:indigo;
+        transform:scale(1.1,1.1);
+    }
+
+
+        /*boton negro*/
+
+
+    &__dark{
+        width:180px;
+        background-image:linear-gradient(rgb(44, 44, 44),$dark);
+        border-radius: 1rem;
+        color:ghostwhite;
+        padding: 1rem 2rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin-top:2rem;
+        margin-bottom:0;
+        font-weight:bolder;
+        transition: background-image 2s;
+        transition: transform 1s;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-name:effect__button;
+        animation-duration:1.5s;
+        animation-timing-function:ease-in;
+
+        &:hover{
+        background-image:linear-gradient(rgb(80, 80, 80),rgb(36, 36, 36));
+        color:ghostwhite;
+        transform:scale(1.1,1.1);
+    }
+    }
+
+    
+
+  }
+  
+  
+  .button__cont{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:3rem;
+}
+
+
+.button__form{
+    width:160px;
+    height:60px;
+    background-image:linear-gradient(rgb(44, 44, 44),$dark);
+    border-radius: 1rem;
+    color:ghostwhite;
+    padding: 1rem;
+    margin:1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight:bolder;
+
+    &:hover{
+    background-image:linear-gradient(rgb(80, 80, 80),rgb(36, 36, 36));
+    }
+
+    &--campos{
+        width:220px;
+        background-color:white;
+        height:60px;
+        border: solid 1px rgb(196, 195, 195);
+        border-radius: 1rem;
+        color:rgb(24,24,24);
+        padding: 1rem;
+        margin:1rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight:bolder;
+    }
+
+}
+
+
